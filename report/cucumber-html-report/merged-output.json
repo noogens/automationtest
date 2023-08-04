@@ -1,0 +1,218 @@
+[
+  {
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "115.0.5790.111"
+      },
+      "device": "Device name not known",
+      "platform": {
+        "name": "WINDOWS",
+        "version": "Version not known"
+      }
+    },
+    "keyword": "Feature",
+    "type": "feature",
+    "description": "",
+    "line": 2,
+    "name": "Checkout on Luma",
+    "uri": "C:\\Users\\Johnty\\Desktop\\Dev\\heartlandtest2\\tests\\features\\checkout.feature",
+    "tags": [
+      {
+        "location": {
+          "line": 1,
+          "column": 1
+        },
+        "name": "@demo",
+        "id": "12"
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "As a user, I want to go to the Luma website and go through the check out process.",
+        "tags": [
+          {
+            "name": "@demo",
+            "astNodeId": "12"
+          }
+        ],
+        "id": "checkout-on-lumaas-a-user,-i-want-to-go-to-the-luma-website-and-go-through-the-check-out-process.",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I am on the homepage https://magento.softwaretestingboard.com/",
+            "result": {
+              "status": "passed",
+              "duration": 1005000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "clicking on the Shop New Yoga button",
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "the New Luma Yoga Collection page displays",
+            "result": {
+              "status": "passed",
+              "duration": 2026000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "filter by the first Style",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "clicking on the Duffel option",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "selecting the Overnight Duffle",
+            "result": {
+              "status": "passed",
+              "duration": 506000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "the Overnight Duffle product page loads",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "add 2 quantity to cart",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "start check out from cart",
+            "result": {
+              "status": "passed",
+              "duration": 2996000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "fill out the required fields and place order",
+            "result": {
+              "status": "passed",
+              "duration": 5130000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "then Success Page will show",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": {
+              "status": "passed",
+              "duration": 1468000000
+            },
+            "line": null,
+            "match": {
+              "location": "can not be determined with webdriver.io"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "checkout-on-luma"
+  }
+]

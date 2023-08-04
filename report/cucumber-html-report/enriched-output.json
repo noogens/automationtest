@@ -1,0 +1,334 @@
+{
+  "app": 0,
+  "customMetadata": false,
+  "customData": {
+    "title": "WDIO tests Report",
+    "data": [
+      {
+        "label": "Project",
+        "value": "WDIO Demo Project"
+      },
+      {
+        "label": "Environment",
+        "value": "dev"
+      },
+      {
+        "label": "BaseURL",
+        "value": "https://magento.softwaretestingboard.com/"
+      },
+      {
+        "label": "Platform",
+        "value": "win32"
+      },
+      {
+        "label": "Date",
+        "value": "8/4/2023"
+      }
+    ]
+  },
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": false,
+  "displayDuration": false,
+  "browser": 1,
+  "name": "",
+  "version": "version",
+  "time": "2023-08-04T20:13:37.105Z",
+  "features": [
+    {
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "115.0.5790.111"
+        },
+        "device": "Device name not known",
+        "platform": {
+          "name": "WINDOWS",
+          "version": "Version not known"
+        }
+      },
+      "keyword": "Feature",
+      "type": "feature",
+      "description": "",
+      "line": 2,
+      "name": "Checkout on Luma",
+      "uri": "C:\\Users\\Johnty\\Desktop\\Dev\\heartlandtest2\\tests\\features\\checkout.feature",
+      "tags": [
+        {
+          "location": {
+            "line": 1,
+            "column": 1
+          },
+          "name": "@demo",
+          "id": "12"
+        }
+      ],
+      "elements": [
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "As a user, I want to go to the Luma website and go through the check out process.",
+          "tags": [
+            {
+              "name": "@demo",
+              "astNodeId": "12"
+            }
+          ],
+          "id": "checkout-on-lumaas-a-user,-i-want-to-go-to-the-luma-website-and-go-through-the-check-out-process.",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.001"
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I am on the homepage https://magento.softwaretestingboard.com/",
+              "result": {
+                "status": "passed",
+                "duration": 1005000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:01.005"
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "clicking on the Shop New Yoga button",
+              "result": {
+                "status": "passed",
+                "duration": 668000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.668"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "the New Luma Yoga Collection page displays",
+              "result": {
+                "status": "passed",
+                "duration": 2026000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:02.026"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "filter by the first Style",
+              "result": {
+                "status": "passed",
+                "duration": 77000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.077"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "clicking on the Duffel option",
+              "result": {
+                "status": "passed",
+                "duration": 502000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.502"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "selecting the Overnight Duffle",
+              "result": {
+                "status": "passed",
+                "duration": 506000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.506"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "the Overnight Duffle product page loads",
+              "result": {
+                "status": "passed",
+                "duration": 107000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.107"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "add 2 quantity to cart",
+              "result": {
+                "status": "passed",
+                "duration": 171000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.171"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "start check out from cart",
+              "result": {
+                "status": "passed",
+                "duration": 2996000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:02.996"
+            },
+            {
+              "arguments": [],
+              "keyword": "And",
+              "name": "fill out the required fields and place order",
+              "result": {
+                "status": "passed",
+                "duration": 5130000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:05.130"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "then Success Page will show",
+              "result": {
+                "status": "passed",
+                "duration": 0
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 1468000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:01.468"
+            }
+          ],
+          "passed": 13,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 14657000000,
+          "time": "00:00:14.657"
+        }
+      ],
+      "id": "024447ac-b80a-43b6-bd38-b0920acb613a-checkout-on-luma",
+      "scenarios": {
+        "passed": 1,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 1
+      },
+      "duration": 14657000000,
+      "time": "00:00:14.657",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "Acceptance Tests Report",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 1,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}
